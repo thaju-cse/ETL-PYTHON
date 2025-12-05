@@ -1,0 +1,20 @@
+2025-12-03 13:25:47.448915 : Data Transformed and returned a DataFrame.
+
+2025-12-03 13:25:47.463551 : Query Execution completed.
+
+2025-12-03 13:30:25.955554 : Extracted data from the web and returned a DtaFrame.
+
+2025-12-03 13:30:26.098465 : Data Transformed and returned a DataFrame.
+
+2025-12-03 13:30:26.166495 : A CSV file and a Table created.
+
+2025-12-03 13:30:26.190816 : Query Execution completed.
+
+2025-12-03 13:31:08.673656 : Extracted data from the web and returned a DtaFrame.
+
+2025-12-03 13:31:08.849946 : Data Transformed and returned a DataFrame.
+
+2025-12-03 13:31:08.981228 : A CSV file and a Table created.
+
+2025-12-03 13:31:09.047858 : Query Execution completed.
+
