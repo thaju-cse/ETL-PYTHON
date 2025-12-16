@@ -37,7 +37,7 @@ The project follows a standard ETL structure:
 
 2. extract(url)
 
-    Takes a Wikipedia URL as input
+    Takes a Wikipedia URL as input as " url = 'https://web.archive.org/web/20251007065341/https://en.wikipedia.org/wiki/List_of_largest_banks' "
 
     Downloads the raw HTML
 
@@ -47,7 +47,7 @@ The project follows a standard ETL structure:
 
     Returns the raw DataFrame
 
-3. transform(df)
+4. transform(df)
 
     Cleans messy World banks data
 
@@ -57,7 +57,7 @@ The project follows a standard ETL structure:
 
     Returns a clean, analysis-ready DataFrame
 
-4. loading(df)
+5. loading(df)
 
     Saves the transformed data as:
 
@@ -67,7 +67,7 @@ The project follows a standard ETL structure:
 
     Returns the paths of the generated files
 
-5. run_query(query, db_name, table_name)
+6. run_query(query, db_name, table_name)
 
     Executes a SQL query on the loaded table
 
@@ -75,7 +75,7 @@ The project follows a standard ETL structure:
 
     Automatically calls the log function
 
-6. log_process()
+7. log_process()
 
     Maintains a logbook of:
 
